@@ -1,0 +1,311 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.fa-rupee-sign {
+  padding-right: 2px;
+  margin-right: 0;
+  margin-left: 20px;
+}
+.hero-section {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  height: 369px;
+  left: 0px;
+  top: 11vh;
+  background: #f6fffe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.appointment-hero {
+  position: relative;
+  left: 0px;
+  top: 11vh;
+}
+
+.schedule-date {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  top: 10vh;
+}
+.doc-image {
+  padding-top: 20px;
+  text-align: center;
+}
+.doc-image img {
+  width: 182.57px;
+  height: 182.57px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 128.571px;
+  border-style: solid;
+  border-color: #3b6978;
+}
+
+.doc-name {
+  padding-top: 10px;
+  text-align: center;
+  color: #204051;
+}
+
+.doc-name p {
+  font-style: oblique;
+}
+
+.doc-text p {
+  font-size: small;
+  font-weight: 500;
+  padding-top: 40px;
+  color: #3b6978;
+}
+.doc-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.doc-icon {
+  padding: 1rem 1rem 0.2rem 1rem;
+  text-align: center;
+  background-color: #f3f3f3;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  margin: 0.5rem;
+  color: #3b6978;
+  width: 81.01px;
+  height: 140.8px;
+}
+
+.doc-icon p {
+  font-style: oblique;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+  .doc-text p {
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+  }
+  .schedule-date {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    top: 10vh;
+  }
+
+  .hero-section {
+    height: fit-content;
+    padding-bottom: 2rem;
+  }
+}
+
+.item p {
+  text-align: center;
+  font-size: 40px;
+}
+
+.text-topic h4 {
+  color: #204051;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.sectionA-one {
+  top: 13.01%;
+  width: 100%;
+  margin-left: 2.53%;
+  background: #ffffff;
+  box-shadow: 0px 4.56397px 4.56397px rgba(0, 0, 0, 0.25);
+  border-radius: 4.80874px;
+  margin-top: 1rem;
+  padding: 20px;
+  height: 80vh;
+}
+
+.sectionA-two {
+  background: #ffffff;
+  box-shadow: 0px 4.56397px 4.56397px rgba(0, 0, 0, 0.25);
+  border-radius: 4.80874px;
+  margin-top: 1rem;
+  margin-left: 2%;
+  height: fit-content;
+  padding: 20px;
+}
+
+.select-head {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 19px;
+  /* or 80% */
+
+  letter-spacing: -0.35629px;
+
+  color: #5b5b5b;
+}
+
+.select-type {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  color: #1e1c61;
+}
+
+.select-semihead {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #858585;
+}
+
+.selectB-semihead {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.8329px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #292424;
+}
+
+.proceed-to-pay {
+  background-color: #ffac50;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.fee-inperson {
+  transform: translateX(105px);
+}
+
+.select-desc {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.8px;
+  line-height: 18px;
+  /* or 153% */
+
+  color: #000000;
+}
+
+.cost-image {
+  width: 109.54px;
+  height: 109.54px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.cost-doc {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.2559px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: -0.35629px;
+  text-align: left;
+  color: #5b5b5b;
+  margin-left: 10px;
+}
+
+.doc-name {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.cart-item {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.8329px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
+
+  color: #292424;
+}
+
+.cart-item-qty {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.8329px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+
+  color: #292424;
+}
+
+.cart-item2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.8329px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
+
+  color: #292424;
+}
+
+.cart-item-price {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.8329px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: #525151;
+}
+
+.cart-total-price {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.8329px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-left: 10px;
+
+  color: #ff9c1b;
+}
+
+.cart-item-price i {
+  padding: 0;
+  margin: 0;
+}

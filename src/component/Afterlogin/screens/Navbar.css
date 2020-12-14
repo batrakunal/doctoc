@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a:hover {
+  color: #3b6978;
+  text-decoration: none;
+}
+
+i {
+  padding-right: 10px;
+}
+.navbar {
+  background: #e4e3e3;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  max-width: 1500px;
+  padding-left: 5rem;
+}
+
+.navbar-logo {
+  color: #3b6978;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  width: 100%;
+  justify-content: end;
+}
+
+.nav-menus {
+  list-style: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menus {
+    display: none;
+  }
+}
+
+.nav-links {
+  color: #3b6978;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+@media screen and (min-width: 960px) {
+  .nav-login {
+    margin-left: 32rem;
+    background-color: #84a9ac;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 0;
+    border-radius: 0 0 0 2rem;
+  }
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #3b6978;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #3b6978;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-login {
+    display: none;
+  }
+  .nav-menu.active {
+    background: #e4e3e3;
+
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #3b6978;
+    color: #242424;
+    border-radius: 0;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 30%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #3b6978;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #3b6978;
+    padding: 14px 20px;
+    border: 1px solid #3b6978;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: #3b6978;
+    color: #242424;
+    transition: 250ms;
+  }
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgb(141, 141, 141);
+  padding: 0 0 0 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.logo_items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.logo_img img {
+  width: 9vh;
+  height: 9vh;
+}
+.logo_items li {
+  padding: 0 15px;
+  border-right: 1px solid black;
+  font-size: 1.2rem;
+  margin: 0 0 0 10px;
+}
+.logo_items li:last-child {
+  border-right: none;
+}
+.logo_items a:first-child {
+  border-right: none;
+}
+.profile_nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  background: rgba(0, 164, 173, 0.3);
+  border-bottom-left-radius: 30px;
+}
+.profile_nav a {
+  padding-right: 30px;
+  margin: 0px !important;
+  text-decoration: none;
+}
+.profile_nav img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.profile_nav .logoutbtn:hover {
+  color: white;
+}

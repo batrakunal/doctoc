@@ -1,0 +1,81 @@
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100;
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+.date-container {
+  width: 102.87px;
+  height: 94.48px;
+  background: #ffc88a;
+  box-shadow: 0px 2.79931px 2.79931px rgba(0, 0, 0, 0.25);
+  border-radius: 7.6981px;
+  margin: 5px;
+  z-index: 2;
+  margin-bottom: 20px;
+}
+
+.date-button {
+  background-color: transparent;
+  border: none;
+}
+
+.date-button:hover {
+  background: #ffc88a;
+}
+
+.date-button:focus {
+  background: #ffc88a;
+}
+
+.date-container:hover {
+  transform: scale(1.4);
+  z-index: 3;
+  transition-duration: 0.3s;
+  background: #ffc88a;
+}
+
+.date-button {
+  color: #fffdfd;
+  width: 56.69px;
+  height: 35.69px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 44.7889px;
+  line-height: 17px;
+  padding: 35px 20px 30px 25px;
+}
+
+.dates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
